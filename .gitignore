@@ -34,3 +34,7 @@ wp-content/themes/*
 # !wp-content/themes/ourbadasstheme2
 # !wp-content/themes/ourbadasstheme3
 # ...
+
+# not sure if we'll need to modify these, ignore for now
+index.php
+wp-content/index.php
