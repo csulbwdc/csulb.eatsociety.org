@@ -15,3 +15,22 @@ sitemap.xml
 sitemap.xml.gz
 readme.html
 license.txt
+
+# ignore OSX dsstore file
+.DS_Store
+# ignore UNIX backups
+*~
+
+# ignore plugins, except for the ones we specify
+wp-content/plugins/*
+# !wp-content/plugins/ourbadassplugin1
+# !wp-content/plugins/ourbadassplugin2
+# !wp-content/plugins/ourbadassplugin3
+# ...
+
+# ignore themes, except for the ones we specify
+wp-content/themes/*
+# !wp-content/themes/ourbadasstheme1
+# !wp-content/themes/ourbadasstheme2
+# !wp-content/themes/ourbadasstheme3
+# ...
