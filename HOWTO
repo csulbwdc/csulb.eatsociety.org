@@ -1,0 +1,21 @@
+# GUI clients
+# GitHub for Windows
+http://windows.github.com/
+# GitHub for Mac
+http://mac.github.com/
+
+# CLI binaries
+# OSX (using Terminal)
+http://git-scm.com/download/mac
+# Windows (using Command Prompt)
+http://code.google.com/p/msysgit/
+
+# CLI instructions
+cd /path/to/htdocs	# probably /Applications/MAMP/htdocs
+cd /path/to/wordpress 	# your WordPress installation
+git init		# initialize the git repo
+# add csulbwdc remote repo as your "origin"
+git remote add origin git@github.com:csulbwdc/csulb.eatsociety.org.git
+# pull from origin repo (pull the master branch)
+git pull origin/master
+git status		# this should report "nothing to commit" if all is well
