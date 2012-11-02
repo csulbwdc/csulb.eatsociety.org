@@ -19,3 +19,5 @@ git remote add origin git@github.com:csulbwdc/csulb.eatsociety.org.git
 # pull from origin repo (pull the master branch)
 git pull origin/master
 git status		# this should report "nothing to commit" if all is well
+
+#SOMETHING
